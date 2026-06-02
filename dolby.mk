@@ -66,17 +66,4 @@ PRODUCT_COPY_FILES += \
     $(DOLBY_PATH)/proprietary/vendor/etc/init/vendor.dolby.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.media.c2@1.0-service.rc
 
 PRODUCT_PACKAGES += \
-    vendor.dolby.hardware.dms@2.0-impl \
-    vendor.dolby.hardware.dms@2.0 \
-    vendor.dolby.media.c2@1.0-service \
-    libcodec2_soft_dolby \
-    libcodec2_store_dolby \
-    libdapparamstorage \
-    libdeccfg \
-    libdlbdsservice \
-    libdlbpreg \
-    libdlbvol \
-    libswdap \
-    libswspatializer \
-    libswvqe 
-
+    
